@@ -197,7 +197,7 @@ Input "help" to show this again.
 			game_map[y][x] = TERRAIN['WALK']
 			msg += 'You have gained a shield. Input "q" to enter shield stance for a turn. '
 		
-		if (randint(0,10+luck) is 0):
+		if (randint(0,50+luck) is 0):
 			game_map[y][x] = TERRAIN['UNWALK']
 			msg += 'The ground at your feet feels shaky. '
 		
